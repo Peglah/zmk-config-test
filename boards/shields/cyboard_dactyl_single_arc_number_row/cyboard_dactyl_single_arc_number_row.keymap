@@ -37,7 +37,7 @@
         Layer__1 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans               &trans   &trans     &trans   &trans     &trans &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans               &trans   &kp KP_N7  &kp UP   &kp KP_N   &trans &kp RBRC
+&trans  &trans  &trans  &trans  &trans  &trans               &trans   &kp KP_N7  &kp UP   &kp KP_N9  &trans &kp RBRC
 &trans  &trans  &trans  &trans  &trans  &trans               &trans   &kp LEFT   &kp DOWN &kp RIGHT  &trans &kp NUHS
 &trans  &trans  &trans  &trans  &trans  &trans               &trans   &kp KP_N1  &trans   &kp KP_N3  &trans &trans
 &trans  &trans  &trans  &trans                                                   &trans   &trans     &trans &trans
