@@ -21,7 +21,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-#[_QWERTY] = LAYOUT(
+//[_QWERTY] = LAYOUT(
         default_layer {
             bindings = <
 &kp CAPS      &kp N1  &kp N2    &kp N3    &kp N4    &kp N5                  &kp N6  &kp N7    &kp N8    &kp N9   &kp N0   &kp LC(BSPC)
@@ -33,7 +33,7 @@
             >;
         };
 
-#[_LOWER] = LAYOUT(
+//[_LOWER] = LAYOUT(
         Layer__1 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans               &trans   &trans     &trans   &trans     &trans &kp MINUS
@@ -45,7 +45,7 @@
             >;
         };
 
-#[_RAISE] = LAYOUT(
+//[_RAISE] = LAYOUT(
         Layer__2 {
             bindings = <
 &trans  &kp F1    &kp F2    &kp F3    &kp F4  &kp F5                    &kp F6        &kp F7        &kp F8  &kp F9    &kp F10   &kp MINUS
@@ -57,7 +57,7 @@
             >;
         };
 
-#  [_ADJUST] = LAYOUT(
+//[_ADJUST] = LAYOUT(
         layer_3 {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                    &none &none &none &none &none &none
