@@ -23,8 +23,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-        //[_QWERTY] = LAYOUT(
-
         QWERTY {
             bindings = <
 &kp CAPS       &kp N1  &kp N2    &kp N3    &kp N4    &kp N5                   &kp N6   &kp N7    &kp N8     &kp N9   &kp N0    &kp LC(BSPC)
@@ -35,8 +33,6 @@
                                            &kp LALT  &kp ENTER  &mo 1  &mo 2  &kp RET  &kp RALT
             >;
         };
-
-        //[_LOWER] = LAYOUT(
 
         LOWER {
             bindings = <
@@ -49,8 +45,6 @@
             >;
         };
 
-        //[_RAISE] = LAYOUT(
-
         RAISE {
             bindings = <
 &trans  &kp F1    &kp F2    &kp F3     &kp F4  &kp F5                            &kp F6        &kp F7        &kp F8      &kp F9    &kp F10    &kp MINUS
@@ -61,8 +55,6 @@
                                        &trans  &kp BSPC          &trans  &trans  &trans        &trans
             >;
         };
-
-        //[_ADJUST] = LAYOUT(
 
         ADJUST {
             bindings = <
