@@ -46,7 +46,7 @@
         LOWER {
             bindings = <
 &trans       &kp F1   &kp F2  &kp F3   &kp F4  &kp F5                  &kp F6   &kp F7     &kp F8    &kp F9     &kp F10  &kp MINUS
-&trans       &kp F11  &trans  &kp F12  &trans  &trans                  &trans   &kp KP_N7  &kp UP    &kp KP_N9  &trans   &kp RBRC
+&trans       &kp F11  &trans  &kp F12  &trans  &trans                  &trans   &kp KP_N7  &kp UP    &kp KP_N9  &trans   &kp RBKT
 &trans       &trans   &trans  &trans   &trans  &trans                  &trans   &kp LEFT   &kp DOWN  &kp RIGHT  &trans   &kp NUHS
 &trans       &trans   &trans  &trans   &trans  &trans                  &trans   &kp KP_N1  &trans    &kp KP_N3  &trans   &kp MINUS
 &bootloader  &trans   &trans  &trans                                                       &trans    &trans     &trans   &trans
